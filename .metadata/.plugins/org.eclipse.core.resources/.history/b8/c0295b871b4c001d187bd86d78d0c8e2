@@ -1,0 +1,19 @@
+package Class;
+
+import java.util.Scanner;
+
+public class Otroejemploexcepciones {
+
+	public static void main(String[] args) {
+		int  x = leerEntero();
+		System.out.println("x = " + x);		
+
+	}
+    private static int leerEntero() {
+    	Scanner lector = new Scanner(System.in);
+    	System.out.println("Ingrese su numero;");
+    	return lector.nextInt();
+    }
+
+}
+ 
